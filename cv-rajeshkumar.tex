@@ -1,0 +1,223 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+
+%\usepackage{lipsum}
+\usepackage{multicol}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3.5cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Rajeshkumar} % Your first name
+\familyname{K} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{No.6, Sixth Cross, Kurinji Nagar}{Lawspet, Puducherry, 605008}
+\mobile{(+91) 8838385380}
+\email{k.rajeshkumar.1411@gmail.com}
+%\photo{../../registration-prerequisites/photo.jpg}
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Interests}
+
+\cvitem{}{Computational Physics, Numerical methods, Game Theory, Nonlinear Dynamics and Complex Systems, Chaos theory}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+
+\cventry{Jun. 2019 - Present}{BS-MS Dual Degree in Physics}{Indian Institute of Technology}{Madras}{CGPA - 7.87/10 (till 6 semesters)}{}
+
+\cventry{Apr. 2017 - May 2019}{All India Senior School Certificate Examination}{Kendriya Vidyalaya No.2}{Puducherry}{95.80\% (PCMB)}{}
+
+\cventry{Apr. 2016 - Apr. 2017}{Senior School Examination}{Kendriya Vidyalaya No.2}{Puducherry}{CGPA - 10/10}{}
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+\cventry{Inter-IIT Tech Meet 2021}{\href{https://github.com/HorizonIITM/InterIIT-Backend}{Back-end for ISRO Astrosat Visualisation Tool}}{IIT Guwahati}{}{}{
+    \begin{itemize}
+        \item Created the python based back-end for Astrosat visualisation tool which handles the data and processes them for use by the front-end.
+        \item Implemented \emph{adaptive step size algorithm} to query SIMBAD for obtaining citation bibcodes for erraneous input database.
+    \end{itemize}
+}
+\cventry{May 2020 - Feb. 2021}{Chaos and Dynamics}{\href{https://horizoniitm.github.io/}{Horizon IITM}}{}{}{
+    \begin{itemize}
+        \item Studied basics of numerical methods for ODE, and implemented libraries for various \emph{numerical integration schemes}.
+        \item Made aesthetic visualisation of various non-integrable chaotic systems such as \emph{two-body problem}, \emph{three-body problem}, \emph{apsidal precession of mercury}, using Blender.
+    \end{itemize}
+}
+\cventry{May 2020 - Feb. 2021}{Estimation of Hubble Parameter}{\href{https://horizoniitm.github.io/}{Horizon IITM}}{}{}{
+    \begin{itemize}
+        \item Studied methods of Cosmic Distance Ladder, especially \textit{Tully-Fisher Relation}.
+        \item Used FITS data from NASA Extra-galactic Database to perform data analysis for obtaining the luminosity vs. rotational velocity plot.
+        \item Created semi-automatic script for fitting spectroscopic data with \textit{multiple-gaussian model}, with graphical aids.
+    \end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   HONOURS AND AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Honours and Awards}
+%\subsection{Academic}
+%\vspace{-5mm}
+%\cventry{}{}{}{}{}{
+%\begin{itemize}
+%    \item
+%\end{itemize}
+%}
+
+%\subsection{Scholarships}
+\cvlistitem{Recipient of the \textbf{Innovation in Science Pursuit for Inspired Research} (INSPIRE) scholarship. A program funded and managed by Department of Science and Technology, India. It is offered to top 1.0\% of the students pursuing natural sciences in the country on competitive basis.}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\cvitem{Programming Languages}{Python, Bash, C++, JavaScript}
+\cvitem{Packages}{Pandas, Numpy, Matplotlib, SciPy}
+\cvitem{Operating Systems}{Linux (Arch, Ubuntu, Mint), Windows}
+\cvitem{Tools / Frameworks}{\LaTeX, Mathematica, Blender, Git, Regex, Inkscape, Illustrator, SAOImage DS9, NEC2}
+
+%----------------------------------------------------------------------------------------
+%	COURSEWORK SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Relevant Coursework (upto 7th semester)}
+\subsection{Physics}
+\vspace{-5mm}
+\cventry{}{}{}{}{}{
+    \begin{multicols}{2}
+        \begin{itemize}
+            \item Foundation of Computational Physics
+            \item Thermodynamics and \\Kinetic Theory
+            \item Introduction to Biological Physics
+            \item Quantum Mechanics
+            \item Ultrafast Lasers and Applications
+            \item Classical Mechanics
+            \item Statistical Mechanics$^\dagger$
+            \item Condensed Matter Physics I
+            \item Electromagnetic Theory$^\dagger$
+            \item Atomic and Molecular Physics$^\dagger$
+        \end{itemize}
+    \end{multicols}
+}
+
+\subsection{Mathematics}
+\vspace{-5mm}
+\cventry{}{}{}{}{}{
+    \begin{multicols}{2}
+        \begin{itemize}
+            \item Multivariate Calculus
+            \item Series and Matrices
+            \item Differential Geometry of \\Curves and Surfaces
+            \item Probability, Statistics and \\Stochastic Processes
+            \item Linear Algebra
+            \item Mathematical Physics 1 \\(Differential Equations)
+            \item Mathematical Physics 2 \\(Complex Analysis, Green's \\Functions and \\Group Representations)
+            \item Measure theory and Integration$^\dagger$
+        \end{itemize}
+    \end{multicols}
+}
+
+\subsection{Others}
+
+\vspace{-5mm}
+\cventry{}{}{}{}{}{
+    \begin{multicols}{2}
+        \begin{itemize}
+            \item Electronics
+            \item Principles of Economics
+            \item Life Sciences
+            \item Literature and Life
+        \end{itemize}
+    \end{multicols}
+    \vspace{-3mm}
+    ( $^\dagger$ Ongoing Courses)\newline
+}
+
+%\section{MOOCs}
+%\vspace{-5mm}
+%\cventry{}{}{}{}{}{
+%\begin{itemize}
+%	\item some stuff
+%\end{itemize}
+%}
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGE SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+%\cvitem{English}{\textbf{Conversationally fluent}}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Schools and Workshops}
+\cventry{Aug. 2021}{Networks and Dynamical Systems Workshop}{Complex Systems and Dynamics Group, IITM (Online)}{}{}{}
+\cventry{May. 2022 - Present}{Curves and Surfaces: Geometry and Physical Applications Summer School}{ICTS-TIFR (Online)}{}{}{}
+
+\section{Outreach}
+\subsection{Service}
+%\vspace{-5mm}
+\cventry{Apr. 2021 - Apr. 2022}{Head}{Horizon - the Physics and Astronomy club of IIT Madras}{}{}{
+    I am currently heading the student-run community for Physics and Astronomy enthusiasts at IIT Madras (under CFI). We encourage and conduct various activites to cater to the student body such as lectures, workshops, projects, trips and competitive events.
+}
+
+\cventry{Aug. 2021 - Mar. 2022}{Mentor}{Estimation of Hubble Parameter, Horizon IITM}{}{}{
+    I am mentoring the project team for estimating Hubble parameter by using luminosity of Type 1A supernovae.
+}
+
+\cventry{Aug. 2021 - Mar. 2022}{Mentor}{Visualization and Dynamics of Chaotic Systems, Horizon IITM}{}{}{
+    I am mentoring the project team for making a visualisation tool for dynamical systems, especially chaotic systems. Current progress include learning the tools and methods (JavaScript, P5.js, Numerical methods) and weekly discussions on relevant literature.
+}
+
+\subsection{Talks}
+\cventry{July 2021}{Instructor}{Horizon's CFI Summer School 2021}{}{}{
+    I conducted 5 sessions for the summer school in the topics: \textit{Linux and Version Control}, \textit{Introductory Python}, \textit{Linear Algebra for Quantum Mechanics}, \textit{Applications of Schr{\"o}dinger equation}. The repository for the summer school is \href{https://github.com/HorizonIITM/summer-school-2021/}{available here}.
+}
+
+\section{Extra-curricular Skills}
+%\vspace{-5mm}
+\cvlistitem{I am proficient in 3D design and animations in Blender, especially for visualization. I have extensive experience with graphic design and scientific illustrations.}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+
